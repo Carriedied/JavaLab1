@@ -1,0 +1,45 @@
+# === Java ===
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# === NetBeans / OpenIDE ===
+nbproject/private/
+nbbuild/
+build/
+dist/
+nbdist/
+.nb-gradle/
+.nb-gradle-properties
+
+# === Maven (если используется) ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+pom.xml.war
+pom.xml.copied
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === Gradle (если используется) ===
+.gradle
+/build/
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# === Системный мусор ===
+.DS_Store
+Thumbs.db
+desktop.ini
